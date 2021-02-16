@@ -1,10 +1,11 @@
+'''quick script to generate squares for superbowl 2021
+'''
+
 import random
 
 def rowss(row_number, sqs):
   idx = row_number*10
   return sqs[idx:idx + 10]
-'''quick script to generate squares for superbowl 2021
-'''
 
 def name_drop(input_number, names):
   return names[input_number%(len(names))]
